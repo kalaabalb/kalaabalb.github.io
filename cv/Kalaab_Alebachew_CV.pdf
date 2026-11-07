@@ -32,55 +32,62 @@ endobj
 6 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/kalaabalb)
->> /Border [ 0 0 0 ] /Rect [ 57.02362 723.5701 142.0646 734.3701 ] /Subtype /Link /Type /Annot
+/S /URI /Type /Action /URI (https://kalaabalb.github.io)
+>> /Border [ 0 0 0 ] /Rect [ 57.02362 723.5701 132.0656 734.3701 ] /Subtype /Link /Type /Annot
 >>
 endobj
 7 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://www.linkedin.com/in/kalaab-alb)
->> /Border [ 0 0 0 ] /Rect [ 149.5706 723.5701 253.1066 734.3701 ] /Subtype /Link /Type /Annot
+/S /URI /Type /Action /URI (https://github.com/kalaabalb)
+>> /Border [ 0 0 0 ] /Rect [ 139.5716 723.5701 224.6126 734.3701 ] /Subtype /Link /Type /Annot
 >>
 endobj
 8 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://leetcode.com/u/kalaabalex)
->> /Border [ 0 0 0 ] /Rect [ 260.6126 723.5701 367.1636 734.3701 ] /Subtype /Link /Type /Annot
+/S /URI /Type /Action /URI (https://www.linkedin.com/in/kalaab-alb)
+>> /Border [ 0 0 0 ] /Rect [ 232.1186 723.5701 335.6546 734.3701 ] /Subtype /Link /Type /Annot
 >>
 endobj
 9 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://leetcode.com/u/kalaabalex)
+>> /Border [ 0 0 0 ] /Rect [ 343.1606 723.5701 449.7116 734.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+10 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://github.com/kalaabalb/yomart-api)
 >> /Border [ 0 0 0 ] /Rect [ 196.9084 546.5101 315.7524 557.0701 ] /Subtype /Link /Type /Annot
 >>
 endobj
-10 0 obj
+11 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://familyacademy.et)
 >> /Border [ 0 0 0 ] /Rect [ 343.6044 473.4101 412.0684 483.9701 ] /Subtype /Link /Type /Annot
 >>
 endobj
-11 0 obj
+12 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://github.com/kalaabalb/github-repo-inspector)
 >> /Border [ 0 0 0 ] /Rect [ 282.9724 400.3101 451.7124 410.8701 ] /Subtype /Link /Type /Annot
 >>
 endobj
-12 0 obj
+13 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://github.com/kalaabalb/kalaabalb)
 >> /Border [ 0 0 0 ] /Rect [ 260.4972 314.0101 383.7588 324.5701 ] /Subtype /Link /Type /Annot
 >>
 endobj
-13 0 obj
+14 0 obj
 <<
-/Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R ] /Contents 17 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R ] /Contents 18 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 17 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 
   /Trans <<
@@ -88,25 +95,25 @@ endobj
 >> /Type /Page
 >>
 endobj
-14 0 obj
-<<
-/PageMode /UseNone /Pages 16 0 R /Type /Catalog
->>
-endobj
 15 0 obj
 <<
-/Author (Kalaab Alebachew) /CreationDate (D:20261107195117+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261107195117+03'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (Mobile and full-stack developer) /Title (Kalaab Alebachew - CV) /Trapped /False
+/PageMode /UseNone /Pages 17 0 R /Type /Catalog
 >>
 endobj
 16 0 obj
 <<
-/Count 1 /Kids [ 13 0 R ] /Type /Pages
+/Author (Kalaab Alebachew) /CreationDate (D:20261108002103+03'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261108002103+03'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (Mobile and full-stack developer) /Title (Kalaab Alebachew - CV) /Trapped /False
 >>
 endobj
 17 0 obj
 <<
-/Length 9739
+/Count 1 /Kids [ 14 0 R ] /Type /Pages
+>>
+endobj
+18 0 obj
+<<
+/Length 9829
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -152,7 +159,7 @@ Q
 q
 1 0 0 1 57.02362 721.3701 cm
 q
-BT 1 0 0 1 0 4 Tm 13 TL /F1 9 Tf .427451 .156863 .85098 rg (github.com/kalaabalb) Tj .364706 .329412 .439216 rg ( \267 ) Tj .427451 .156863 .85098 rg (linkedin.com/in/kalaab-alb) Tj .364706 .329412 .439216 rg ( \267 ) Tj .427451 .156863 .85098 rg (leetcode.com/u/kalaabalex) Tj T* ET
+BT 1 0 0 1 0 4 Tm 13 TL /F1 9 Tf .427451 .156863 .85098 rg (kalaabalb.github.io) Tj .364706 .329412 .439216 rg ( \267 ) Tj .427451 .156863 .85098 rg (github.com/kalaabalb) Tj .364706 .329412 .439216 rg ( \267 ) Tj .427451 .156863 .85098 rg (linkedin.com/in/kalaab-alb) Tj .364706 .329412 .439216 rg ( \267 ) Tj .427451 .156863 .85098 rg (leetcode.com/u/kalaabalex) Tj T* ET
 Q
 Q
 q
@@ -482,7 +489,7 @@ Q
 endstream
 endobj
 xref
-0 18
+0 19
 0000000000 65535 f 
 0000000061 00000 n 
 0000000102 00000 n 
@@ -490,27 +497,28 @@ xref
 0000000321 00000 n 
 0000000500 00000 n 
 0000000679 00000 n 
-0000000859 00000 n 
-0000001049 00000 n 
-0000001234 00000 n 
-0000001425 00000 n 
-0000001602 00000 n 
-0000001805 00000 n 
-0000001996 00000 n 
-0000002271 00000 n 
-0000002341 00000 n 
-0000002649 00000 n 
-0000002710 00000 n 
+0000000858 00000 n 
+0000001038 00000 n 
+0000001228 00000 n 
+0000001413 00000 n 
+0000001605 00000 n 
+0000001782 00000 n 
+0000001985 00000 n 
+0000002176 00000 n 
+0000002458 00000 n 
+0000002528 00000 n 
+0000002836 00000 n 
+0000002897 00000 n 
 trailer
 <<
 /ID 
-[<b1dfad23bf68d436ea5a831ea3c70856><b1dfad23bf68d436ea5a831ea3c70856>]
+[<06a16baa466870bd4aba03590713a7ac><06a16baa466870bd4aba03590713a7ac>]
 % ReportLab generated PDF document -- digest (opensource)
 
-/Info 15 0 R
-/Root 14 0 R
-/Size 18
+/Info 16 0 R
+/Root 15 0 R
+/Size 19
 >>
 startxref
-12501
+12778
 %%EOF
