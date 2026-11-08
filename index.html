@@ -428,7 +428,7 @@ var TL = [
   ['2026-09-23', 'Family Academy', 'Client, TV client, backend, admin and the public landing page.', 'https://familyacademy.et'],
   ['2026-09-07', 'GitHub Repo Inspector', 'Early MVP of the repository analysis tool.', 'https://github.com/kalaabalb/github-repo-inspector'],
   ['2026-08-22', 'KalaOS', 'Profile README built as an operating system.', 'https://github.com/kalaabalb/kalaabalb'],
-  ['2026-05-01', 'ARITB', 'Software engineering internship in Bahir Dar, February to May 2026.', 'https://www.linkedin.com/in/kalaab-alb']
+  ['2026-05-01', 'ARITB', 'Software engineering internship in Bahir Dar, February to May 2026. Built Family Academy end to end.', 'https://www.linkedin.com/in/kalaab-alb']
 ];
 var LINKS = [
   ['GitHub', 'github.com/kalaabalb', 'https://github.com/kalaabalb'],
@@ -445,12 +445,11 @@ var HIRE = { h: 'For hiring teams', p: 'I\'m looking for a full-time role where 
 var FREE = { h: 'For freelance clients', p: 'Send me the project, the deadline and a budget range on LinkedIn, and I will reply with a plan.', l: ['Flutter apps for Android and iOS', 'REST APIs and admin dashboards', 'Landing pages and download hubs, like familyacademy.et'] };
 var EMAIL = 'kalaab.alb@gmail.com', LI = 'https://www.linkedin.com/in/kalaab-alb', TG = 'https://t.me/Stillalive2025', CV = 'cv/Kalaab_Alebachew_CV.pdf';
 var SERVICES = [
-  { n: 'Landing page', p: 'from $120', t: '2 to 4 days', d: 'One responsive page for a product, event or personal brand.', l: ['Mobile-first layout', 'Contact or sign-up section', 'Fast loading and basic SEO'] },
-  { n: 'Business website', p: 'from $300', t: '1 to 2 weeks', d: 'Up to five pages with a contact form and content you can edit.', l: ['Up to five pages', 'Contact form and map', 'Setup notes for your team'] },
-  { n: 'Flutter app MVP', p: 'from $900', t: '3 to 6 weeks', d: 'An Android and iOS app with five to eight screens, connected to your API.', l: ['Clean UI from your design or sketch', 'Login and data handling', 'Test builds you can install'] },
-  { n: 'API and admin dashboard', p: 'from $700', t: '2 to 4 weeks', d: 'A Node.js or FastAPI backend and a dashboard to manage your data.', l: ['REST API with authentication', 'MongoDB data models', 'Admin screens and documentation'] },
-  { n: 'Full product', p: 'from $1,800', t: '6 to 10 weeks', d: 'App, API and admin built together under one plan, like YoMart.', l: ['Mobile app, API and admin', 'A milestone every one to two weeks', 'Architecture and handover notes'] },
-  { n: 'Hourly or monthly', p: '$15 / hour', t: 'ongoing', d: 'Bug fixes, new features and upkeep. 20 hours a month for $300.', l: ['Written update every week', 'Pay per hour or per milestone'] }
+  { n: 'Landing page', t: '2 to 4 days', d: 'One responsive page for a product, event or personal brand.', l: ['Mobile-first layout', 'Contact or sign-up section', 'Fast loading and basic SEO'] },
+  { n: 'Business website', t: '1 to 2 weeks', d: 'Up to five pages with a contact form and content you can edit.', l: ['Up to five pages', 'Contact form and map', 'Setup notes for your team'] },
+  { n: 'Flutter app MVP', t: '3 to 6 weeks', d: 'An Android and iOS app with five to eight screens, connected to your API.', l: ['Clean UI from your design or sketch', 'Login and data handling', 'Test builds you can install'] },
+  { n: 'API and admin dashboard', t: '2 to 4 weeks', d: 'A Node.js or FastAPI backend and a dashboard to manage your data.', l: ['REST API with authentication', 'MongoDB data models', 'Admin screens and documentation'] },
+  { n: 'Full product', t: '6 to 10 weeks', d: 'App, API and admin built together under one plan, like YoMart.', l: ['Mobile app, API and admin', 'A milestone every one to two weeks', 'Architecture and handover notes'] }
 ];
 var ul = function (a, c) { return '<ul class="' + (c || 'plain') + '">' + a.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul>'; };
 
@@ -464,7 +463,7 @@ PROJECTS.forEach(function (p) {
 FILES[HOME + '/Documents/about.txt'] = ABOUT_P.join('\n\n') + '\n\nBased in: Addis Ababa, Ethiopia\nStudying: BSc Software Engineering, Bahir Dar University (graduating June 2027)\nMain stack: Flutter, Node.js, Python\nPractice: https://leetcode.com/u/kalaabalex';
 FILES[HOME + '/Documents/hire-me.txt'] = HIRE.h + '\n\n' + HIRE.p + '\n\n' + HIRE.l.map(function (x) { return '  - ' + x; }).join('\n');
 FILES[HOME + '/Documents/freelance.txt'] = FREE.h + '\n\n' + FREE.p + '\n\n' + FREE.l.map(function (x) { return '  - ' + x; }).join('\n');
-FILES[HOME + '/Documents/services.txt'] = 'Services (introductory prices in USD)\n\n' + SERVICES.map(function (c) { return c.n + '  ' + c.p + '  (' + c.t + ')\n  ' + c.d; }).join('\n\n');
+FILES[HOME + '/Documents/services.txt'] = 'Freelance work I take alongside full-time and internship roles. Pricing is agreed after a short brief.\n\n' + SERVICES.map(function (c) { return c.n + '  (' + c.t + ')\n  ' + c.d; }).join('\n\n');
 FILES[HOME + '/Documents/cv.txt'] = 'CV (PDF): open the Resume app, then press "Open CV (PDF)".\nEmail: ' + EMAIL + '\nTelegram: @Stillalive2025';
 FILES[HOME + '/Documents/timeline.log'] = TL.map(function (t) { return t[0] + '  ' + t[1] + '\n            ' + t[2]; }).join('\n');
 STACK.forEach(function (g) { FILES[HOME + '/Skills/' + g.title.toLowerCase().replace(/ and /g, '-').replace(/\s/g, '-') + '.txt'] = g.title + '\n\n' + g.items.map(function (i) { return '  ' + i[0] + (i[1] ? '   (' + i[1] + ')' : ''); }).join('\n'); });
@@ -687,7 +686,7 @@ function renderDock() {
     };
   });
 }
-var TIPS = ['Press Ctrl K (Cmd K on Mac) to search every app, project and file.', 'Drag a window by its title bar, drag its edges to resize, double-click the title to maximize.', 'Open the Terminal and try neofetch, tree or coffee.', 'Right-click the desktop to switch the wallpaper or theme.', 'The Ethiopian clock counts from sunrise, so 7 AM is 1 o\'clock.', 'Settings has a Blueprint wallpaper drawn on the KalaOS 8 px grid.', 'Snake and 2048 keep your best score on this device.', 'Open Services to see what I build and the starting prices.', 'The Resume app is a one-page summary of everything here.'], tipI = 0;
+var TIPS = ['Press Ctrl K (Cmd K on Mac) to search every app, project and file.', 'Drag a window by its title bar, drag its edges to resize, double-click the title to maximize.', 'Open the Terminal and try neofetch, tree or coffee.', 'Right-click the desktop to switch the wallpaper or theme.', 'The Ethiopian clock counts from sunrise, so 7 AM is 1 o\'clock.', 'Settings has a Blueprint wallpaper drawn on the KalaOS 8 px grid.', 'Snake and 2048 keep your best score on this device.', 'Open Freelance to see what I build on the side.', 'The Resume app is a one-page summary of everything here.'], tipI = 0;
 function setTip() { var t = $('#wg-tip'); if (!t) return; t.style.opacity = 0; setTimeout(function () { t.textContent = TIPS[tipI++ % TIPS.length]; t.style.opacity = 1; }, 240); }
 function renderWidgets() {
   var rows = '<button class="row" data-copy="' + EMAIL + '" data-label="' + EMAIL + '">' + ico('mail') + '<span>' + EMAIL + '</span><small>copy</small></button>' +
@@ -893,11 +892,11 @@ APPS.paper = { title: 'Resume', icon: 'paper', w: 780, h: 580, single: true, ren
 } };
 
 /* ---------- services ---------- */
-APPS.svc = { title: 'Services', icon: 'tag', w: 880, h: 600, single: true, render: function (win) {
-  win.body.innerHTML = '<div class="pad16"><h2>What I build, and what it costs</h2><p>Introductory prices in US dollars while I grow my client list. Every project gets a written scope and a fixed quote before work starts.</p><div class="svc">' +
-    SERVICES.map(function (c) { return '<div class="svc-c"><h4>' + c.n + '</h4><div class="pr">' + c.p + '</div><div class="tm">' + c.t + '</div><p>' + c.d + '</p>' + ul(c.l, '') + '</div>'; }).join('') + '</div>' +
-    '<h3>How a project runs</h3><ol class="steps"><li><b>Brief.</b> You send the goal, the deadline and a budget range. I reply with questions and a plan.</li><li><b>Quote.</b> You get a written scope, a fixed price and milestones.</li><li><b>Build.</b> You see a working build every one to two weeks. Payment follows milestones: Upwork escrow, or 30% upfront, 40% midway and 30% on delivery.</li><li><b>Handover.</b> Source code, setup notes and a short walkthrough call.</li></ol>' +
-    '<div class="lbtns"><button class="btn pri" data-open="mail" data-arg="free">Start a project</button>' + A('Telegram', TG) + A('LinkedIn', LI) + '<button class="btn" data-copy="' + EMAIL + '">Copy email</button></div></div>';
+APPS.svc = { title: 'Freelance', icon: 'tag', w: 880, h: 600, single: true, render: function (win) {
+  win.body.innerHTML = '<div class="pad16"><h2>Freelance work</h2><p>My main goal is a full-time or internship role. I also take a small number of freelance projects. Send me a short brief and I reply with questions, a written scope and a quote. There is no public price list because the price depends on the scope.</p><div class="svc">' +
+    SERVICES.map(function (c) { return '<div class="svc-c"><h4>' + c.n + '</h4><div class="tm">' + c.t + '</div><p>' + c.d + '</p>' + ul(c.l, '') + '</div>'; }).join('') + '</div>' +
+    '<h3>How a project runs</h3><ol class="steps"><li><b>Brief.</b> You send the goal, the deadline and a budget range. I reply with questions and a plan.</li><li><b>Quote.</b> You get a written scope, a price and milestones.</li><li><b>Build.</b> You see a working build every one to two weeks. Payment follows milestones.</li><li><b>Handover.</b> Source code, setup notes and a short walkthrough call.</li></ol>' +
+    '<div class="lbtns"><button class="btn pri" data-open="mail" data-arg="free">Send a brief</button>' + A('Telegram', TG) + A('LinkedIn', LI) + '<button class="btn" data-copy="' + EMAIL + '">Copy email</button></div></div>';
 } };
 
 /* ---------- 2048 ---------- */
@@ -1020,7 +1019,7 @@ APPS.term = { title: 'Terminal', icon: 'term', w: 700, h: 460, render: function 
     cv: function () { w('CV (PDF): ' + A(CV, 'open the PDF')); },
     telegram: function () { w(A(TG, 't.me/Stillalive2025') + ' <a href="#" data-copy="@Stillalive2025">[copy handle]</a>'); },
     '2048': function () { openApp('g2048'); w('<span class="c-g">opened</span> 2048'); },
-    services: function () { wp(SERVICES.map(function (c) { return '<span class="c-p">' + esc(c.n) + '</span>  <span class="c-g">' + esc(c.p) + '</span>  <span class="c-m">' + esc(c.t) + '</span>\n  ' + esc(c.d); }).join('\n') + '\n\n<span class="c-m">Introductory prices in USD. open services for the full list.</span>'); },
+    services: function () { wp(SERVICES.map(function (c) { return '<span class="c-p">' + esc(c.n) + '</span>  <span class="c-m">' + esc(c.t) + '</span>\n  ' + esc(c.d); }).join('\n') + '\n\n<span class="c-m">Open freelance for the full list.</span>'); },
     email: function () { w(EMAIL + ' <a href="#" data-copy="' + EMAIL + '">[copy]</a>'); },
     snake: function () { openApp('snake'); w('<span class="c-g">opened</span> Snake'); },
     time: function () { var d = new Date(), c = fmtClock(d), e = ethTime(d); wp('Local      ' + c.t + ' ' + c.s + ' · ' + DAYS_L[d.getDay()] + ', ' + MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear() + '\nEthiopian  ' + e.t + ' ' + e.per + ' · ' + ethLine(d)); },
